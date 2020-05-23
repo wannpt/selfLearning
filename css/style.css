@@ -4,29 +4,35 @@ body {
     margin: 0;
 }
 hr {
-    content: "...";
-    display: block;
     border-style: none;
     border-top-style: dotted;
     border-width: 1vw;
-    width: 5%;
-    height: 5%;
     color: #e1f4f3;
+    content: "...";
+    display: block;
+    height: 5%;
+    width: 5%;
+
 }
 
 h1 {
+    color: #ffffff;
     font-family: 'Playfair Display', serif;
     font-size: 72px;
-    color: #ffffff;
     margin: 0;
 }
 
 .headBar {
-    background-color: #333333;
-    width: 100%;
-    height: 15vh;
-    border: none;
-    margin: 0;
-    display: flex;
     align-content: center;
+    background-color: #333333;
+    border: none;
+    display: flex;
+    height: 15vh;
+    margin: 0;
+    width: 100%;
+}
+
+.huge{
+    font-size: 10rem;
+    font-weight: bold;
 }
